@@ -71,8 +71,8 @@ def detectar_color_especifico(ruta_imagen, color_nombre="Rojo"):
     cv2.destroyAllWindows()
 
 
-# Guarda una imagen de prueba (ej. 'colores_varios.jpg') en la misma carpeta que este script.
+#Ejemplos para la deteccion de colores con la imagen en la misma carpeta:
 
-# detectar_color_especifico('colores_varios.jpg', "rojo")
-# detectar_color_especifico('colores_varios.jpg', "azul")
-# detectar_color_especifico('colores_varios.jpg', "verde")
+detectar_color_especifico('colores_varios.png', "rojo")
+# detectar_color_especifico('colores_varios.png', "azul")
+# detectar_color_especifico('colores_varios.png', "verde")
